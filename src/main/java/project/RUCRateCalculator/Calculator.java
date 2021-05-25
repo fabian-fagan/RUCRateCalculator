@@ -50,7 +50,7 @@ public class Calculator extends JFrame {
 		panel.add(km);
 		int result = JOptionPane.showConfirmDialog(null, panel, "Enter weight and kilometres driven:",
 				JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
-		// assign values
+		// assign values 
 		if (result == JOptionPane.OK_OPTION) {
 			if (!weight.getText().equals("")) {
 				chosenWeight = weight.getText();
