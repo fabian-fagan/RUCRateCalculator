@@ -127,5 +127,4 @@ public class Calculator extends JFrame {
 		}
 		return weightClass;
 	}
-
 }
